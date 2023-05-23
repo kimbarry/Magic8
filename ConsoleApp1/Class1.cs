@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     public class Class1
     {
-        public static int ReturnOne()
+        public static int Retur()
         {
             return 1;
         }

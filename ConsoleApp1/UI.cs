@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         public string Magic8Response()
         {
-            return RESPONSES[0];
+            return "";
         }
     }
 }

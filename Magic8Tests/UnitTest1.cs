@@ -1,4 +1,5 @@
 
+using ConsoleApp1;
 using System;
 
 namespace Magic8Tests
@@ -6,15 +7,14 @@ namespace Magic8Tests
     public class UnitTest1
     {
         [Fact]
-        public void TestReturnOne()
+        public void TestReturnGetLost()
         {
             //arrange
             
-            int expected = 1;
-
+            string expected = "Get Lost";
+            var ball = new Ball();
             //act
-
-            int actual = ConsoleApp1.Class1.ReturnOne();
+            string actual = ball.GetResponse();
 
 
             //assert
